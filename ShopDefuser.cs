@@ -40,7 +40,7 @@ namespace ShopDefuser
         {
             if (JsonDefuser == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Äåôóçåð");
+            SHOP_API.CreateCategory(CategoryName, "Ð”ÐµÑ„ÑƒÐ·ÐµÑ€");
 
             foreach (var item in JsonDefuser.Properties().Where(p => p.Value is JObject))
             {
